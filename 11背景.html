@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>背景</title>
+	<style>
+		body{
+			background-color: pinkk;   /*添加背景颜色*/
+			background-image: url(images/3.jpg); /* 添加背景图像*/
+
+		}
+		/*repeat:背景图像在纵向和横向上平铺
+		no-repeat:背景图像不平铺
+		repeat-x:背景图像在纵向平铺
+		repeat-y:背景图像在纵向平铺*/
+		div{
+			width: 5px;
+			height: 5px;
+			background-color: purple;
+			background-image: url(images/l.jpg);
+			background-repeat: no-repeat;/*不平铺*/
+			/*background-position: 0 0;  使用这个可以使图片在盒子里面移动*/
+			background-position: center top;  center 上  bottem 下 left 左 right 右
+			background-position: center center;  /*左右上下都居中*/
+			/*1.position 后面可以跟方位名词 他们之间可以没有上下顺序
+			2.position 如果只有一个方位名词，另一个默认是居中的
+			3.position 后面也可以跟具体的值 px,但是必须有顺序，x在前面，y在后面，不能颠倒。*/
+			
+		}
+		
+	</style>
+</head>
+<body>
+
+	
+</body>
+</html>

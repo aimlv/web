@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类选择器</title>
+	<style>
+		a:link{color:#3c3c3c; font-size:25px; text-decoration: none; font-weight: 700;}  /*未访问的链接的状态*/
+		a:visited {color:orange;}  /*这个链接我们已经点过的样子  已访问过的链接*/
+		a:hover {color:#f10215;}  /*鼠标经过上方的时候   实际开发中使用最多的样式*/
+		a:active {color:green;}    /*鼠标按下时候的样式
+*/
+ 
+/*如果这几个伪类选择器都使用的话   就要注意这个顺序了  顺序不能乱 否则会没有效果
+正确的顺序是  link\visited\hover\active*/
+
+		
+	</style>
+</head>
+<body>
+	<a href="http://www.jd.com" >秒杀</a>
+	
+</body>
+</html>
